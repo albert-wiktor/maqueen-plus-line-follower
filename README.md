@@ -1,6 +1,4 @@
 
-> Otwórz tę stronę na [https://albert-wiktor.github.io/maqueen-pluus-path/](https://albert-wiktor.github.io/maqueen-pluus-path/)
-
 Więcej w odcinku "Albert i Wiktor #6" - https://youtu.be/1O0lkUeZMss
 
 ## Użyj jako rozszerzenia
