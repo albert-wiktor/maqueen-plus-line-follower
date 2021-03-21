@@ -12,7 +12,7 @@ To repozytorium można dodać jako **rozszerzenie** w MakeCode.
 * kliknij **Rozszerzenia** w menu oznaczonym kołem zębatym
 * szukaj **https://github.com/albert-wiktor/maqueen-pluus-path** i importuj
 
-## Edytuj ten projekt ![Status kompilacji](https://github.com/albert-wiktor/maqueen-pluus-path/workflows/MakeCode/badge.svg)
+## Edytuj ten projekt
 
 Aby edytować to repozytorium w MakeCode.
 
