@@ -10,19 +10,19 @@ basic.forever(function () {
         DFRobotMaqueenPluss.mototRun(Motors.M2, Dir.CCW, 40)
         basic.pause(100)
     } else if (DFRobotMaqueenPluss.readPatrol(Patrol.L2) == 1) {
-        DFRobotMaqueenPluss.mototRun(Motors.M1, Dir.CCW, 40)
+        DFRobotMaqueenPluss.mototRun(Motors.M1, Dir.CCW, 70)
         DFRobotMaqueenPluss.mototRun(Motors.M2, Dir.CW, 100)
     } else if (DFRobotMaqueenPluss.readPatrol(Patrol.R2) == 1) {
         DFRobotMaqueenPluss.mototRun(Motors.M1, Dir.CW, 100)
-        DFRobotMaqueenPluss.mototRun(Motors.M2, Dir.CCW, 40)
+        DFRobotMaqueenPluss.mototRun(Motors.M2, Dir.CCW, 70)
     } else if (DFRobotMaqueenPluss.readPatrol(Patrol.L1) == 1 && DFRobotMaqueenPluss.readPatrol(Patrol.R1) == 1) {
         DFRobotMaqueenPluss.mototRun(Motors.ALL, Dir.CW, 120)
     } else if (DFRobotMaqueenPluss.readPatrol(Patrol.L1) == 1) {
-        DFRobotMaqueenPluss.mototRun(Motors.M1, Dir.CW, 40)
+        DFRobotMaqueenPluss.mototRun(Motors.M1, Dir.CW, 70)
         DFRobotMaqueenPluss.mototRun(Motors.M2, Dir.CW, 100)
     } else if (DFRobotMaqueenPluss.readPatrol(Patrol.R1) == 1) {
         DFRobotMaqueenPluss.mototRun(Motors.M1, Dir.CW, 100)
-        DFRobotMaqueenPluss.mototRun(Motors.M2, Dir.CW, 40)
+        DFRobotMaqueenPluss.mototRun(Motors.M2, Dir.CW, 70)
     } else {
         DFRobotMaqueenPluss.mototRun(Motors.ALL, Dir.CCW, 60)
     }
